@@ -57,6 +57,8 @@ net start MongoDB  # Windows service
 python init_db.py
 ```
 
+---
+
 ## ▶️ Run the App
 ```bash
 uvicorn main:app --reload
